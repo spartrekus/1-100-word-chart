@@ -1,0 +1,51 @@
+
+!tex
+
+\usepackage[margin=1.0cm]{geometry}
+// \usepackage{multirow}
+\usepackage{supertabular}
+!title 1-100 Number Word Chart
+!date   
+
+
+!begin
+!maketitle
+
+
+\begin{center}
+\begin{supertabular}{|l l|l l|l l|l l|l l|}
+    \hline
+      \multicolumn{2}{|c|}{A}  &
+      \multicolumn{2}{|c|}{B}  &
+      \multicolumn{2}{|c|}{C}  &
+      \multicolumn{2}{|c|}{D}  &
+      \multicolumn{2}{|c|}{E}  &
+    \hline
+|| 1;one	11;eleven	21;twenty-one	31;thirty-one	41;forty-one
+|| 2;two	12;twelve	22;twenty-two	32;thirty-two	42;forty-two
+|| 3;three	13;thirteen	23;twenty-three	33;thirty-three	43;forty-three
+|| 4;four	14;fourteen	24;twenty-four	34;thirty-four	44;forty-four
+|| 5;five	15;fifteen	25;twenty-five	35;thirty-five	45;forty-five
+|| 6;six	16;sixteen	26;twenty-six	36;thirty-six	46;forty-six
+|| 7;seven	17;seventeen	27;twenty-seven	37;thirty-seven	47;forty-seven
+|| 8;eight	18;eighteen	28;twenty-eight	38;thirty-eight	48;forty-eight
+|| 9;nine	19;nineteen	29;twenty-nine	39;thirty-nine	49;forty-nine
+|| 10;ten	20;twenty	30;thirty	40;forty	50;fifty
+    \hline
+|| 50;fifty	60;sixty	70;seventy	80;eighty	90;ninety
+|| 51;fifty-one	61;sixty-one	71;seventy-one	81;eighty-one	91;ninety-one
+|| 52;fifty-two	62;sixty-two	72;seventy-two	82;eighty-two	92;ninety-two
+|| 53;fifty-three	63;sixty-three	73;seventy-three	83;eighty-three	93;ninety-three
+|| 54;fifty-four	64;sixty-four	74;seventy-four	84;eighty-four	94;ninety-four
+|| 55;fifty-five	65;sixty-five	75;seventy-five	85;eighty-five	95;ninety-five
+|| 56;fifty-six	66;sixty-six	76;seventy-six	86;eighty-six	96;ninety-six
+|| 57;fifty-seven	67;sixty-seven	77;seventy-seven	87;eighty-seven	97;ninety-seven
+|| 58;fifty-eight	68;sixty-eight	78;seventy-eight	88;eighty-eight	98;ninety-eight
+|| 59;fifty-nine	69;sixty-nine	79;seventy-nine	89;eighty-nine	99;ninety-nine
+|| 60;sixty	70;seventy	80;eighty	90;ninety	100;one hundred
+    \hline
+\end{supertabular}
+\end{center}
+
+
+
